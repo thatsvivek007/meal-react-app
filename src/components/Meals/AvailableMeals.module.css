@@ -10,6 +10,26 @@
     margin: 0;
     padding: 0;
   }
+
+  .meals ul li{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: aliceblue;
+  }
+
+  .loading{
+    color: #fff;
+    text-align: center;
+  }
+
+  .httpError{
+    color: red;
+    text-align: center;
+  }
   
   @keyframes meals-appear {
     from {
